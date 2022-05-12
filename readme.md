@@ -22,14 +22,17 @@ Modificar Archivo
 
 Agregar 
 
+<<<<<<< HEAD
 127.0.0.1 magento.test
+=======
+
+>>>>>>> d4788d7b6b68ad977186be8a339c2bdb11c685a5
 ```
 
 
 _Una vez clonado el repositorio configurar la terminal en la direccion del repositorio_
 
 ```
-cd movistar.test
 ```
 
 

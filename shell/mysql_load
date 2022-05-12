@@ -1,0 +1,2 @@
+DIR=$(pwd | sed 's#.*/##' | awk '{print tolower($0)}')"_db1_1"
+cat $2 | docker exec -i $DIR /usr/bin/mysql -u root --password=magento $1

@@ -1,0 +1,13 @@
+#eliminar datos de la BD y reinstalar.
+    echo "Nombre de administrador: "
+    read USER_NAME
+    echo "$USER_NAME contraseña: "
+    read USER_PASSWORD
+    echo "$USER_NAME email: "
+    read USER_EMAIL
+    echo "$USER_NAME firstname: "
+    read USER_FIRSTNAME
+    echo "$USER_NAME lastname: "
+    read USER_LASTNAME
+
+docker-compose exec -T phpfpm bin/magento setup:install --cleanup-database --db-host=db1 --db-name=magento --db-user=magento --db-password=magento --base-url=http://movistar.test --backend-frontname=admin --admin-firstname=$USER_FIRSTNAME --admin-lastname=$USER_LASTNAME --admin-email=$USER_EMAIL --admin-user=$USER_NAME --admin-password=$USER_PASSWORD --language=es_CL --currency=CLP --use-rewrites=1 --search-engine=elasticsearch7 --elasticsearch-host=elasticsearch1 --elasticsearch-port=9200 --elasticsearch-index-prefix=magento

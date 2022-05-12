@@ -1,0 +1,2 @@
+DIR=$(pwd | sed 's#.*/##' | awk '{print tolower($0)}')"_db1_1"
+docker exec $DIR /usr/bin/mysqldump -u root --password=magento $1 > backup-"`date +"%d-%m-%Y"`".sql

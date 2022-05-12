@@ -1,0 +1,8 @@
+docker-compose exec -T phpfpm bin/magento se:up &&
+docker-compose exec -T phpfpm bin/magento se:di:co &&
+docker-compose exec -T phpfpm bin/magento se:st:de -f &&
+docker-compose exec -T phpfpm bin/magento se:st:de es_ES -f &&
+docker-compose exec -T phpfpm bin/magento indexer:reindex &&
+docker-compose exec -T phpfpm bin/magento c:c &&
+docker-compose exec -T phpfpm bin/magento c:f
+#chmod +x shell/cc

@@ -1,0 +1,15 @@
+src/mysql_data1
+src/mysql_log1
+src/sock_data1
+src/nginx_log1
+src/phpfpm_log1
+src/redis_data1
+src/elasticsearch_data1
+src/elasticsearch_log1
+docker-images/php/7.4/.composer/cache
+src/app_magento/vendor
+src/es_data1
+src/es_log1
+src/app_magento/etc/config.php
+*.lock
+src/app_magento/composer.lock

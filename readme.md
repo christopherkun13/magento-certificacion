@@ -9,7 +9,7 @@ _Estas instrucciones te permitirán obtener una copia del proyecto en funcionami
 _Tambien es importante que clonen el poryecto antes de realizar los pasos descritos mas adelante_
 
 ```
-git clone http://git.tchile.local/ControlDeVersiones/Everis_MG-VentaEmpresas_MSS-108 movistar.test
+
 ```
 
 _Editar archivo hosts_
@@ -22,14 +22,13 @@ Modificar Archivo
 
 Agregar 
 
-127.0.0.1   movistar.test
+
 ```
 
 
 _Una vez clonado el repositorio configurar la terminal en la direccion del repositorio_
 
 ```
-cd movistar.test
 ```
 
 
@@ -132,8 +131,7 @@ El siguiente comando le solicitará los siguientes datos _nombre de administrado
 
 2.9 Finalmente ingresar a las siguiente rutas:
 
-* [http://movistar.test](http://movistar.test)
-* [http://movistar.test/admin](http://movistar.test/admin)
+* magento.test
 
 ## 3. Scripts
 
@@ -197,11 +195,9 @@ _Menciona las herramientas que utilizaste para crear tu proyecto_
 
 _Menciona a todos aquellos que ayudaron a levantar el proyecto desde sus inicios_
 
-* **Gustavo Vazquez** - 
+
 * **Christopher Bueno** - 
-* **Daniel Gómez** -
-* **Yoselin Chavez** - 
-* **Diego Oyarzo** - 
+- 
 
 
 ---
